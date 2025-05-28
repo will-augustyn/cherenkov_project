@@ -1,0 +1,3 @@
+/home/will04/geant4_work/cherenkov_project/build/CMakeFiles/sim.dir
+/home/will04/geant4_work/cherenkov_project/build/CMakeFiles/edit_cache.dir
+/home/will04/geant4_work/cherenkov_project/build/CMakeFiles/rebuild_cache.dir
