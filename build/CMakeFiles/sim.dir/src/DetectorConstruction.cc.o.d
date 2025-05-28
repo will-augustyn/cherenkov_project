@@ -277,6 +277,8 @@ CMakeFiles/sim.dir/src/DetectorConstruction.cc.o: \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Box.icc \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Cons.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Cons.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Tubs.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Tubs.icc \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4LogicalVolume.hh \
  /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
