@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sim.dir/src/PrimaryGeneratorAction.cc.o.d"
   "CMakeFiles/sim.dir/src/RunAction.cc.o"
   "CMakeFiles/sim.dir/src/RunAction.cc.o.d"
+  "CMakeFiles/sim.dir/src/SensitiveDetector.cc.o"
+  "CMakeFiles/sim.dir/src/SensitiveDetector.cc.o.d"
   "CMakeFiles/sim.dir/src/SteppingAction.cc.o"
   "CMakeFiles/sim.dir/src/SteppingAction.cc.o.d"
   "sim"

@@ -4,6 +4,11 @@
 
 // Base G4 class that our program will inherit from
 #include "G4VUserDetectorConstruction.hh"
+#include "G4VisAttributes.hh"
+#include "G4Color.hh"
+#include "G4SDManager.hh"
+
+#include "SensitiveDetector.hh"
 
 // Declare these classes without actually defining them
 class G4VPhysicalVolume;
@@ -23,6 +28,10 @@ namespace Cherenkov
         G4VPhysicalVolume *Construct() override;
 
         G4LogicalVolume *GetScoringVolume() const { return fScoringVolume; }
+
+    private:
+        G4LogicalVolume *logicDetector;
+        virtual void ConstructSDandField();
 
     protected:
         G4LogicalVolume *fScoringVolume = nullptr;

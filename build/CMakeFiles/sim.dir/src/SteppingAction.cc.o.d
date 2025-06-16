@@ -233,53 +233,27 @@ CMakeFiles/sim.dir/src/SteppingAction.cc.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/will04/geant4_work/cherenkov_project/include/EventAction.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4UserEventAction.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/globals.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Event.hh \
- /usr/include/c++/13/set /usr/include/c++/13/bits/stl_set.h \
- /usr/include/c++/13/bits/stl_multiset.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/evtdefs.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Allocator.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4AllocatorPool.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4PrimaryVertex.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4PrimaryParticle.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VisAttributes.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/graphics_reps_defs.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Colour.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4ThreeVector.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Utility/defs.h \
  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/pwdefs.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Color.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VisAttributes.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Color.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4SDManager.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4HCtable.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4SDStructure.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VSensitiveDetector.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4CollectionNameVector.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4HCofThisEvent.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Allocator.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4AllocatorPool.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VHitsCollection.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4DCofThisEvent.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4VDigiCollection.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4TrajectoryContainer.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4VTrajectory.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4VUserEventInformation.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4LogicalVolume.hh \
- /usr/include/c++/13/memory \
- /usr/include/c++/13/bits/stl_raw_storage_iter.h \
- /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
- /usr/include/c++/13/bits/shared_ptr.h \
- /usr/include/c++/13/bits/shared_ptr_base.h \
- /usr/include/c++/13/bits/allocated_ptr.h \
- /usr/include/c++/13/ext/concurrence.h \
- /usr/include/c++/13/bits/shared_ptr_atomic.h \
- /usr/include/c++/13/bits/atomic_base.h \
- /usr/include/c++/13/bits/atomic_lockfree_defines.h \
- /usr/include/c++/13/backward/auto_ptr.h \
- /usr/include/c++/13/pstl/glue_memory_defs.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Region.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4GeomSplitter.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/geomwdefs.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4AutoLock.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Threading.hh \
- /usr/include/c++/13/chrono /usr/include/c++/13/condition_variable \
- /usr/include/c++/13/future /usr/include/c++/13/bits/atomic_futex.h \
- /usr/include/c++/13/atomic /usr/include/c++/13/bits/std_function.h \
- /usr/include/c++/13/bits/std_thread.h /usr/include/c++/13/thread \
- /usr/include/c++/13/bits/this_thread_sleep.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Region.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Step.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VPhysicalVolume.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/geomdefs.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4RotationMatrix.hh \
@@ -293,40 +267,31 @@ CMakeFiles/sim.dir/src/SteppingAction.cc.o: \
  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationX.h \
  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationX.icc \
  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationY.h \
  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationY.icc \
  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationZ.h \
  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationZ.icc \
  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/Rotation.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4GeomSplitter.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/geomwdefs.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4AutoLock.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Threading.hh \
+ /usr/include/c++/13/chrono /usr/include/c++/13/condition_variable \
+ /usr/include/c++/13/bits/shared_ptr.h \
+ /usr/include/c++/13/bits/shared_ptr_base.h \
+ /usr/include/c++/13/bits/allocated_ptr.h \
+ /usr/include/c++/13/bits/unique_ptr.h \
+ /usr/include/c++/13/ext/concurrence.h /usr/include/c++/13/future \
+ /usr/include/c++/13/bits/atomic_base.h \
+ /usr/include/c++/13/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/13/bits/atomic_futex.h /usr/include/c++/13/atomic \
+ /usr/include/c++/13/bits/std_function.h \
+ /usr/include/c++/13/bits/std_thread.h /usr/include/c++/13/thread \
+ /usr/include/c++/13/bits/this_thread_sleep.h \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VPhysicalVolume.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4LogicalVolume.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4RunManager.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Event.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4EventManager.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4StackManager.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4UserStackingAction.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4ClassificationOfNewTrack.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4StackedTrack.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4TrackStack.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4SmartTrackStack.hh \
- /usr/include/c++/13/array /usr/include/c++/13/compare \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4SubEventTrackStack.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4SubEvent.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Track.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/trkdefs.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4LogicalVolume.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4DynamicParticle.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4ElectronOccupancy.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Log.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4LorentzVector.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4ParticleDefinition.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4PDefManager.hh \
- /usr/include/c++/13/stdlib.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4ParticleDefinition.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4ParticleMomentum.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4DynamicParticle.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4TrackStatus.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4StepPoint.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4SteppingControl.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4StepStatus.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4TouchableHandle.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VTouchable.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4TouchableHistory.hh \
@@ -347,10 +312,18 @@ CMakeFiles/sim.dir/src/SteppingAction.cc.o: \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4NavigationLevel.icc \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4NavigationHistoryPool.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4NavigationHistory.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4LogicalVolume.hh \
+ /usr/include/c++/13/memory \
+ /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/13/bits/align.h \
+ /usr/include/c++/13/bits/shared_ptr_atomic.h \
+ /usr/include/c++/13/backward/auto_ptr.h \
+ /usr/include/c++/13/pstl/glue_memory_defs.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Region.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Region.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4LogicalVolume.icc \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4TouchableHistory.icc \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4ReferenceCountedHandle.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4VUserTrackInformation.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4PhysicsModelCatalog.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Material.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Element.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4ElementTable.hh \
@@ -369,6 +342,7 @@ CMakeFiles/sim.dir/src/SteppingAction.cc.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Log.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4PhysicsVectorType.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4PhysicsVector.icc \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4MaterialTable.hh \
@@ -376,14 +350,61 @@ CMakeFiles/sim.dir/src/SteppingAction.cc.o: \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4OrderedTable.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4DataVector.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4DataVector.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Track.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Step.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4StepPoint.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4SteppingControl.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4StepStatus.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4StepPoint.icc \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4TrackVector.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Step.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Track.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/trkdefs.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4DynamicParticle.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4ElectronOccupancy.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/pwdefs.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4LorentzVector.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4ParticleDefinition.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4PDefManager.hh \
+ /usr/include/c++/13/stdlib.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4ParticleDefinition.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4ParticleMomentum.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4DynamicParticle.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4TrackStatus.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VUserTrackInformation.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4PhysicsModelCatalog.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Track.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VHit.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VReadOutGeometry.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4SensitiveVolumeList.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VSDFilter.hh \
+ /home/will04/geant4_work/cherenkov_project/include/SensitiveDetector.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VSensitiveDetector.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4SystemOfUnits.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4UnitsTable.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4UnitsTable.icc \
+ /home/will04/geant4_work/cherenkov_project/include/EventAction.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4UserEventAction.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/globals.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Event.hh \
+ /usr/include/c++/13/set /usr/include/c++/13/bits/stl_set.h \
+ /usr/include/c++/13/bits/stl_multiset.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/evtdefs.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4PrimaryVertex.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4PrimaryParticle.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4DCofThisEvent.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VDigiCollection.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4TrajectoryContainer.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VTrajectory.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VUserEventInformation.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4LogicalVolume.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4RunManager.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Event.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4EventManager.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4StackManager.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4UserStackingAction.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4ClassificationOfNewTrack.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4StackedTrack.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4TrackStack.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4SmartTrackStack.hh \
+ /usr/include/c++/13/array /usr/include/c++/13/compare \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4SubEventTrackStack.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4SubEvent.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4PrimaryTransformer.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4ParticleTable.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4ParticleTableIterator.hh \

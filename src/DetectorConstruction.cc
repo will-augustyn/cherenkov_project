@@ -117,11 +117,39 @@ namespace Cherenkov
 
         // Set Shape2 as scoring volume
         //
-        fScoringVolume = logicShape2;
+        fScoringVolume = logicShape1;
+        // // Set up Detectors
+        G4Material *detMat = nist->FindOrBuildMaterial("G4_PLEXIGLASS");
+
+        G4double inner_radius_det = 0 * cm;
+        G4double outer_radius_det = 10 * cm;
+        G4double height_det = 10 * cm;
+
+        auto solidDetector = new G4Tubs("Detector", inner_radius_det, outer_radius_det, height_det, 0, CLHEP::twopi);
+
+        logicDetector = new G4LogicalVolume(solidDetector, // its solid
+                                            detMat,        // its material
+                                            "Detector");   // its name
+
+        new G4PVPlacement(nullptr,                // no rotation
+                          G4ThreeVector(0, 0, 0), // at position
+                          logicDetector,          // its logical volume
+                          "Detector",             // its name
+                          logicEnv,               // its mother  volume
+                          false,                  // no boolean operation
+                          0,                      // copy number
+                          checkOverlaps);         // overlaps checking
 
         //
         // always return the physical World
         //
         return physWorld;
+    }
+
+    void DetectorConstruction::ConstructSDandField()
+    {
+        SensitiveDetector *sensDet = new SensitiveDetector("SensitiveDetector");
+        logicDetector->SetSensitiveDetector(sensDet);
+        G4SDManager::GetSDMpointer()->AddNewDetector(sensDet);
     }
 }

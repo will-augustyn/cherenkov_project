@@ -1,8 +1,9 @@
-CMakeFiles/sim.dir/src/DetectorConstruction.cc.o: \
- /home/will04/geant4_work/cherenkov_project/src/DetectorConstruction.cc \
+CMakeFiles/sim.dir/src/SensitiveDetector.cc.o: \
+ /home/will04/geant4_work/cherenkov_project/src/SensitiveDetector.cc \
  /usr/include/stdc-predef.h \
- /home/will04/geant4_work/cherenkov_project/include/DetectorConstruction.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4VUserDetectorConstruction.hh \
+ /home/will04/geant4_work/cherenkov_project/include/SensitiveDetector.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VSensitiveDetector.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4CollectionNameVector.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/globals.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4ios.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Types.hh \
@@ -231,27 +232,15 @@ CMakeFiles/sim.dir/src/DetectorConstruction.cc.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4VisAttributes.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/graphics_reps_defs.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Colour.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4ThreeVector.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Utility/defs.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Color.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4VisAttributes.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Color.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4SDManager.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4HCtable.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4SDStructure.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4VSensitiveDetector.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4CollectionNameVector.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4HCofThisEvent.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Allocator.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4AllocatorPool.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VHitsCollection.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Step.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4ThreeVector.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Utility/defs.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VPhysicalVolume.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/geomdefs.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4RotationMatrix.hh \
@@ -265,6 +254,7 @@ CMakeFiles/sim.dir/src/DetectorConstruction.cc.o: \
  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationX.h \
  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationX.icc \
  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationY.h \
  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationY.icc \
  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationZ.h \
@@ -371,44 +361,6 @@ CMakeFiles/sim.dir/src/DetectorConstruction.cc.o: \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VReadOutGeometry.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4SensitiveVolumeList.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VSDFilter.hh \
- /home/will04/geant4_work/cherenkov_project/include/SensitiveDetector.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4VSensitiveDetector.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4SystemOfUnits.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4UnitsTable.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4UnitsTable.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Box.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4GeomTypes.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4GeomConfig.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4CSGSolid.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4VSolid.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4VSolid.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Polyhedron.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/HepPolyhedron.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4TwoVector.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/TwoVector.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/TwoVector.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Point3D.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Normal3D.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Visible.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Visible.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Box.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Cons.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Cons.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Tubs.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Tubs.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4LogicalVolume.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4NistManager.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4ICRU90StoppingData.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4NistElementBuilder.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4NistMaterialBuilder.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Pow.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Exp.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4PVPlacement.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Trd.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Trd.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4GlobalMagFieldMessenger.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4UImessenger.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4UIdirectory.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4UIcommand.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4ApplicationState.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4UIparameter.hh
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4UnitsTable.icc

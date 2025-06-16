@@ -21,7 +21,7 @@ namespace Cherenkov
         // default particle kinematic
         G4ParticleTable *particleTable = G4ParticleTable::GetParticleTable();
         G4String particleName;
-        G4ParticleDefinition *particle = particleTable->FindParticle(particleName = "muon");
+        G4ParticleDefinition *particle = particleTable->FindParticle(particleName = "mu-");
         fParticleGun->SetParticleDefinition(particle);
         fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0., 0., 1.));
         fParticleGun->SetParticleEnergy(500. * GeV);
