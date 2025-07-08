@@ -8,7 +8,7 @@
 #include "G4Color.hh"
 #include "G4SDManager.hh"
 
-#include "SensitiveDetector.hh"
+#include "TrackerSD.hh"
 
 // Declare these classes without actually defining them
 class G4VPhysicalVolume;
@@ -27,11 +27,14 @@ namespace Cherenkov
 
         G4VPhysicalVolume *Construct() override;
 
+        virtual void ConstructSDandField();
+
         G4LogicalVolume *GetScoringVolume() const { return fScoringVolume; }
 
     private:
         G4LogicalVolume *logicDetector;
-        virtual void ConstructSDandField();
+
+        G4LogicalVolume **fLogicChamber = nullptr;
 
     protected:
         G4LogicalVolume *fScoringVolume = nullptr;

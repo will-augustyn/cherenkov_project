@@ -14,8 +14,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/will04/geant4_work/cherenkov_project/src/EventAction.cc" "CMakeFiles/sim.dir/src/EventAction.cc.o" "gcc" "CMakeFiles/sim.dir/src/EventAction.cc.o.d"
   "/home/will04/geant4_work/cherenkov_project/src/PrimaryGeneratorAction.cc" "CMakeFiles/sim.dir/src/PrimaryGeneratorAction.cc.o" "gcc" "CMakeFiles/sim.dir/src/PrimaryGeneratorAction.cc.o.d"
   "/home/will04/geant4_work/cherenkov_project/src/RunAction.cc" "CMakeFiles/sim.dir/src/RunAction.cc.o" "gcc" "CMakeFiles/sim.dir/src/RunAction.cc.o.d"
-  "/home/will04/geant4_work/cherenkov_project/src/SensitiveDetector.cc" "CMakeFiles/sim.dir/src/SensitiveDetector.cc.o" "gcc" "CMakeFiles/sim.dir/src/SensitiveDetector.cc.o.d"
   "/home/will04/geant4_work/cherenkov_project/src/SteppingAction.cc" "CMakeFiles/sim.dir/src/SteppingAction.cc.o" "gcc" "CMakeFiles/sim.dir/src/SteppingAction.cc.o.d"
+  "/home/will04/geant4_work/cherenkov_project/src/TrackerHit.cc" "CMakeFiles/sim.dir/src/TrackerHit.cc.o" "gcc" "CMakeFiles/sim.dir/src/TrackerHit.cc.o.d"
+  "/home/will04/geant4_work/cherenkov_project/src/TrackerSD.cc" "CMakeFiles/sim.dir/src/TrackerSD.cc.o" "gcc" "CMakeFiles/sim.dir/src/TrackerSD.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

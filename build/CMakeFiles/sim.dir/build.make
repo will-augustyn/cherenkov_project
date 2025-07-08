@@ -153,24 +153,10 @@ CMakeFiles/sim.dir/src/RunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/RunAction.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will04/geant4_work/cherenkov_project/src/RunAction.cc -o CMakeFiles/sim.dir/src/RunAction.cc.s
 
-CMakeFiles/sim.dir/src/SensitiveDetector.cc.o: CMakeFiles/sim.dir/flags.make
-CMakeFiles/sim.dir/src/SensitiveDetector.cc.o: /home/will04/geant4_work/cherenkov_project/src/SensitiveDetector.cc
-CMakeFiles/sim.dir/src/SensitiveDetector.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/will04/geant4_work/cherenkov_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sim.dir/src/SensitiveDetector.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/SensitiveDetector.cc.o -MF CMakeFiles/sim.dir/src/SensitiveDetector.cc.o.d -o CMakeFiles/sim.dir/src/SensitiveDetector.cc.o -c /home/will04/geant4_work/cherenkov_project/src/SensitiveDetector.cc
-
-CMakeFiles/sim.dir/src/SensitiveDetector.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/SensitiveDetector.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/will04/geant4_work/cherenkov_project/src/SensitiveDetector.cc > CMakeFiles/sim.dir/src/SensitiveDetector.cc.i
-
-CMakeFiles/sim.dir/src/SensitiveDetector.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/SensitiveDetector.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will04/geant4_work/cherenkov_project/src/SensitiveDetector.cc -o CMakeFiles/sim.dir/src/SensitiveDetector.cc.s
-
 CMakeFiles/sim.dir/src/SteppingAction.cc.o: CMakeFiles/sim.dir/flags.make
 CMakeFiles/sim.dir/src/SteppingAction.cc.o: /home/will04/geant4_work/cherenkov_project/src/SteppingAction.cc
 CMakeFiles/sim.dir/src/SteppingAction.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/will04/geant4_work/cherenkov_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/sim.dir/src/SteppingAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/will04/geant4_work/cherenkov_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sim.dir/src/SteppingAction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/SteppingAction.cc.o -MF CMakeFiles/sim.dir/src/SteppingAction.cc.o.d -o CMakeFiles/sim.dir/src/SteppingAction.cc.o -c /home/will04/geant4_work/cherenkov_project/src/SteppingAction.cc
 
 CMakeFiles/sim.dir/src/SteppingAction.cc.i: cmake_force
@@ -181,6 +167,34 @@ CMakeFiles/sim.dir/src/SteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/SteppingAction.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will04/geant4_work/cherenkov_project/src/SteppingAction.cc -o CMakeFiles/sim.dir/src/SteppingAction.cc.s
 
+CMakeFiles/sim.dir/src/TrackerHit.cc.o: CMakeFiles/sim.dir/flags.make
+CMakeFiles/sim.dir/src/TrackerHit.cc.o: /home/will04/geant4_work/cherenkov_project/src/TrackerHit.cc
+CMakeFiles/sim.dir/src/TrackerHit.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/will04/geant4_work/cherenkov_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/sim.dir/src/TrackerHit.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/TrackerHit.cc.o -MF CMakeFiles/sim.dir/src/TrackerHit.cc.o.d -o CMakeFiles/sim.dir/src/TrackerHit.cc.o -c /home/will04/geant4_work/cherenkov_project/src/TrackerHit.cc
+
+CMakeFiles/sim.dir/src/TrackerHit.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/TrackerHit.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/will04/geant4_work/cherenkov_project/src/TrackerHit.cc > CMakeFiles/sim.dir/src/TrackerHit.cc.i
+
+CMakeFiles/sim.dir/src/TrackerHit.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/TrackerHit.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will04/geant4_work/cherenkov_project/src/TrackerHit.cc -o CMakeFiles/sim.dir/src/TrackerHit.cc.s
+
+CMakeFiles/sim.dir/src/TrackerSD.cc.o: CMakeFiles/sim.dir/flags.make
+CMakeFiles/sim.dir/src/TrackerSD.cc.o: /home/will04/geant4_work/cherenkov_project/src/TrackerSD.cc
+CMakeFiles/sim.dir/src/TrackerSD.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/will04/geant4_work/cherenkov_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/sim.dir/src/TrackerSD.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/TrackerSD.cc.o -MF CMakeFiles/sim.dir/src/TrackerSD.cc.o.d -o CMakeFiles/sim.dir/src/TrackerSD.cc.o -c /home/will04/geant4_work/cherenkov_project/src/TrackerSD.cc
+
+CMakeFiles/sim.dir/src/TrackerSD.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/TrackerSD.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/will04/geant4_work/cherenkov_project/src/TrackerSD.cc > CMakeFiles/sim.dir/src/TrackerSD.cc.i
+
+CMakeFiles/sim.dir/src/TrackerSD.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/TrackerSD.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will04/geant4_work/cherenkov_project/src/TrackerSD.cc -o CMakeFiles/sim.dir/src/TrackerSD.cc.s
+
 # Object files for target sim
 sim_OBJECTS = \
 "CMakeFiles/sim.dir/sim.cc.o" \
@@ -189,8 +203,9 @@ sim_OBJECTS = \
 "CMakeFiles/sim.dir/src/EventAction.cc.o" \
 "CMakeFiles/sim.dir/src/PrimaryGeneratorAction.cc.o" \
 "CMakeFiles/sim.dir/src/RunAction.cc.o" \
-"CMakeFiles/sim.dir/src/SensitiveDetector.cc.o" \
-"CMakeFiles/sim.dir/src/SteppingAction.cc.o"
+"CMakeFiles/sim.dir/src/SteppingAction.cc.o" \
+"CMakeFiles/sim.dir/src/TrackerHit.cc.o" \
+"CMakeFiles/sim.dir/src/TrackerSD.cc.o"
 
 # External object files for target sim
 sim_EXTERNAL_OBJECTS =
@@ -201,8 +216,9 @@ sim: CMakeFiles/sim.dir/src/DetectorConstruction.cc.o
 sim: CMakeFiles/sim.dir/src/EventAction.cc.o
 sim: CMakeFiles/sim.dir/src/PrimaryGeneratorAction.cc.o
 sim: CMakeFiles/sim.dir/src/RunAction.cc.o
-sim: CMakeFiles/sim.dir/src/SensitiveDetector.cc.o
 sim: CMakeFiles/sim.dir/src/SteppingAction.cc.o
+sim: CMakeFiles/sim.dir/src/TrackerHit.cc.o
+sim: CMakeFiles/sim.dir/src/TrackerSD.cc.o
 sim: CMakeFiles/sim.dir/build.make
 sim: /home/will04/geant4-v11.3.1-install/lib/libG4Tree.so
 sim: /home/will04/geant4-v11.3.1-install/lib/libG4FR.so
@@ -242,7 +258,7 @@ sim: /home/will04/geant4-v11.3.1-install/lib/libG4global.so
 sim: /home/will04/geant4-v11.3.1-install/lib/libG4clhep.so
 sim: /home/will04/geant4-v11.3.1-install/lib/libG4ptl.so.3.0.0
 sim: CMakeFiles/sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/will04/geant4_work/cherenkov_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/will04/geant4_work/cherenkov_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable sim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

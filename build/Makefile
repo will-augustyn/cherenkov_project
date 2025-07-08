@@ -273,30 +273,6 @@ src/RunAction.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/RunAction.cc.s
 .PHONY : src/RunAction.cc.s
 
-src/SensitiveDetector.o: src/SensitiveDetector.cc.o
-.PHONY : src/SensitiveDetector.o
-
-# target to build an object file
-src/SensitiveDetector.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/SensitiveDetector.cc.o
-.PHONY : src/SensitiveDetector.cc.o
-
-src/SensitiveDetector.i: src/SensitiveDetector.cc.i
-.PHONY : src/SensitiveDetector.i
-
-# target to preprocess a source file
-src/SensitiveDetector.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/SensitiveDetector.cc.i
-.PHONY : src/SensitiveDetector.cc.i
-
-src/SensitiveDetector.s: src/SensitiveDetector.cc.s
-.PHONY : src/SensitiveDetector.s
-
-# target to generate assembly for a file
-src/SensitiveDetector.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/SensitiveDetector.cc.s
-.PHONY : src/SensitiveDetector.cc.s
-
 src/SteppingAction.o: src/SteppingAction.cc.o
 .PHONY : src/SteppingAction.o
 
@@ -320,6 +296,54 @@ src/SteppingAction.s: src/SteppingAction.cc.s
 src/SteppingAction.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/SteppingAction.cc.s
 .PHONY : src/SteppingAction.cc.s
+
+src/TrackerHit.o: src/TrackerHit.cc.o
+.PHONY : src/TrackerHit.o
+
+# target to build an object file
+src/TrackerHit.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/TrackerHit.cc.o
+.PHONY : src/TrackerHit.cc.o
+
+src/TrackerHit.i: src/TrackerHit.cc.i
+.PHONY : src/TrackerHit.i
+
+# target to preprocess a source file
+src/TrackerHit.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/TrackerHit.cc.i
+.PHONY : src/TrackerHit.cc.i
+
+src/TrackerHit.s: src/TrackerHit.cc.s
+.PHONY : src/TrackerHit.s
+
+# target to generate assembly for a file
+src/TrackerHit.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/TrackerHit.cc.s
+.PHONY : src/TrackerHit.cc.s
+
+src/TrackerSD.o: src/TrackerSD.cc.o
+.PHONY : src/TrackerSD.o
+
+# target to build an object file
+src/TrackerSD.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/TrackerSD.cc.o
+.PHONY : src/TrackerSD.cc.o
+
+src/TrackerSD.i: src/TrackerSD.cc.i
+.PHONY : src/TrackerSD.i
+
+# target to preprocess a source file
+src/TrackerSD.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/TrackerSD.cc.i
+.PHONY : src/TrackerSD.cc.i
+
+src/TrackerSD.s: src/TrackerSD.cc.s
+.PHONY : src/TrackerSD.s
+
+# target to generate assembly for a file
+src/TrackerSD.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/TrackerSD.cc.s
+.PHONY : src/TrackerSD.cc.s
 
 # Help Target
 help:
@@ -348,12 +372,15 @@ help:
 	@echo "... src/RunAction.o"
 	@echo "... src/RunAction.i"
 	@echo "... src/RunAction.s"
-	@echo "... src/SensitiveDetector.o"
-	@echo "... src/SensitiveDetector.i"
-	@echo "... src/SensitiveDetector.s"
 	@echo "... src/SteppingAction.o"
 	@echo "... src/SteppingAction.i"
 	@echo "... src/SteppingAction.s"
+	@echo "... src/TrackerHit.o"
+	@echo "... src/TrackerHit.i"
+	@echo "... src/TrackerHit.s"
+	@echo "... src/TrackerSD.o"
+	@echo "... src/TrackerSD.i"
+	@echo "... src/TrackerSD.s"
 .PHONY : help
 
 

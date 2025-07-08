@@ -388,11 +388,14 @@ CMakeFiles/sim.dir/src/RunAction.cc.o: \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VReadOutGeometry.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4SensitiveVolumeList.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VSDFilter.hh \
- /home/will04/geant4_work/cherenkov_project/include/SensitiveDetector.hh \
+ /home/will04/geant4_work/cherenkov_project/include/TrackerSD.hh \
+ /home/will04/geant4_work/cherenkov_project/include/TrackerHit.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Allocator.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4THitsCollection.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Threading.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4ThreeVector.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VHit.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VSensitiveDetector.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4SystemOfUnits.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4UnitsTable.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4UnitsTable.icc \
  /home/will04/geant4_work/cherenkov_project/include/PrimaryGeneratorAction.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4AccumulableManager.hh \
@@ -540,4 +543,7 @@ CMakeFiles/sim.dir/src/RunAction.cc.o: \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4RunManagerKernel.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/rundefs.hh \
  /usr/include/c++/13/list /usr/include/c++/13/bits/stl_list.h \
- /usr/include/c++/13/bits/list.tcc
+ /usr/include/c++/13/bits/list.tcc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4SystemOfUnits.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4UnitsTable.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4UnitsTable.icc
