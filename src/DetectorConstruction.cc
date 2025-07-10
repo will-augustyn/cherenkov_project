@@ -6,8 +6,12 @@
 #include "G4LogicalVolume.hh"
 #include "G4NistManager.hh"
 #include "G4PVPlacement.hh"
-#include "G4SystemOfUnits.hh"
 #include "G4GlobalMagFieldMessenger.hh"
+#include "G4Element.hh"
+#include "G4Material.hh"
+#include "G4SystemOfUnits.hh"
+#include "G4PhysicalConstants.hh"
+#include "TrackerSD.hh"
 
 namespace Cherenkov
 {
@@ -116,7 +120,14 @@ namespace Cherenkov
         //
         fScoringVolume = logicShape1;
         // // Set up Detectors
-        G4Material *detMat = nist->FindOrBuildMaterial("G4_PLEXIGLASS");
+        G4double A, Z;
+        G4int natoms, nel;
+        G4Element *elSi = new G4Element("Silicon", "Si", Z = 14., A = 28.0855 * g / mole);
+        G4Element *elO = new G4Element("Oxygen", "O", Z = 8., A = 15.9994 * g / mole);
+        G4float density = 2.64 * g / cm3;
+        G4Material *Quartz = new G4Material("Quartz", density, nel = 2);
+        Quartz->AddElement(elSi, natoms = 1);
+        Quartz->AddElement(elO, natoms = 2);
 
         G4double inner_radius_det = 0 * cm;
         G4double outer_radius_det = 10 * cm;
@@ -125,7 +136,7 @@ namespace Cherenkov
         auto solidDetector = new G4Tubs("Detector", inner_radius_det, outer_radius_det, height_det, 0, CLHEP::twopi);
 
         logicDetector = new G4LogicalVolume(solidDetector, // its solid
-                                            detMat,        // its material
+                                            Quartz,        // its material
                                             "Detector");   // its name
 
         new G4PVPlacement(nullptr,                       // no rotation
@@ -151,16 +162,16 @@ namespace Cherenkov
         {
             G4double Zposition = firstPosition + copyNo * chamberSpacing;
 
-            auto chamberS = new G4Tubs("Chamber_solid", 0, outer_radius_det, height_det, 0. * deg, 360. * deg);
+            auto chamberS = new G4Tubs("Detector", 0, outer_radius_det, height_det, 0. * deg, 360. * deg);
 
-            fLogicChamber[copyNo] = new G4LogicalVolume(chamberS, detMat, "Chamber_LV", nullptr, nullptr, nullptr);
+            fLogicChamber[copyNo] = new G4LogicalVolume(chamberS, Quartz, "Detector");
 
             fLogicChamber[copyNo]->SetVisAttributes(chamberVisAtt);
 
             new G4PVPlacement(nullptr,                        // no rotation
                               G4ThreeVector(0, 0, Zposition), // at (x,y,z)
                               fLogicChamber[copyNo],          // its logical volume
-                              "Chamber_PV",                   // its name
+                              "Detector",                   // its name
                               logicEnv,                       // its mother  volume
                               false,                          // no boolean operations
                               copyNo,                         // copy number
@@ -174,13 +185,8 @@ namespace Cherenkov
 
     void DetectorConstruction::ConstructSDandField()
     {
-        // Sensitive detectors
-
-        G4String trackerChamberSDname = "/TrackerChamberSD";
-        auto trackerSD = new TrackerSD(trackerChamberSDname, "TrackerHitsCollection");
-        G4SDManager::GetSDMpointer()->AddNewDetector(trackerSD);
-        // Setting trackerSD to all logical volumes with the same name
-        // of "Chamber_LV".
-        SetSensitiveDetector("Chamber_LV", trackerSD, true);
+        auto PMTSD = new TrackerSD("TrackerChamberSD");
+        G4SDManager::GetSDMpointer()->AddNewDetector(PMTSD);
+        SetSensitiveDetector(logicDetector,PMTSD);
     }
 }

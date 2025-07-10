@@ -374,13 +374,13 @@ CMakeFiles/sim.dir/sim.cc.o: \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4SensitiveVolumeList.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VSDFilter.hh \
  /home/will04/geant4_work/cherenkov_project/include/TrackerSD.hh \
- /home/will04/geant4_work/cherenkov_project/include/TrackerHit.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Allocator.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4THitsCollection.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Threading.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4ThreeVector.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4VHit.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VSensitiveDetector.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/globals.hh \
+ /home/will04/geant4_work/cherenkov_project/include/TrackerHit.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VHit.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4THitsCollection.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Allocator.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4ThreeVector.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/FTFP_BERT.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VModularPhysicsList.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VPhysicsConstructor.hh \
@@ -700,4 +700,6 @@ CMakeFiles/sim.dir/sim.cc.o: \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4UImanager.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4UIsession.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4coutDestination.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4UIbatch.hh
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4UIbatch.hh \
+ /home/will04/geant4_work/cherenkov_project/include/MyPhysicsList.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VModularPhysicsList.hh

@@ -372,13 +372,13 @@ CMakeFiles/sim.dir/src/DetectorConstruction.cc.o: \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4SensitiveVolumeList.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VSDFilter.hh \
  /home/will04/geant4_work/cherenkov_project/include/TrackerSD.hh \
- /home/will04/geant4_work/cherenkov_project/include/TrackerHit.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Allocator.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4THitsCollection.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Threading.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4ThreeVector.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4VHit.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VSensitiveDetector.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/globals.hh \
+ /home/will04/geant4_work/cherenkov_project/include/TrackerHit.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VHit.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4THitsCollection.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Allocator.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4ThreeVector.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Box.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4GeomTypes.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4GeomConfig.hh \
@@ -407,10 +407,14 @@ CMakeFiles/sim.dir/src/DetectorConstruction.cc.o: \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Pow.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Exp.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4PVPlacement.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4SystemOfUnits.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4GlobalMagFieldMessenger.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4UImessenger.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4UIdirectory.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4UIcommand.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4ApplicationState.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4UIparameter.hh
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4UIparameter.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Element.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Material.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4SystemOfUnits.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4PhysicalConstants.hh \
+ /home/will04/geant4_work/cherenkov_project/include/TrackerSD.hh

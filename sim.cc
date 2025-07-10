@@ -7,6 +7,7 @@
 #include "G4UIExecutive.hh"
 #include "G4UImanager.hh"
 #include "G4VisExecutive.hh"
+#include "MyPhysicsList.hh"
 
 using namespace Cherenkov;
 
@@ -31,11 +32,7 @@ int main(int argc, char **argv)
     //
     // Detector construction
     runManager->SetUserInitialization(new DetectorConstruction());
-
-    // Physics list
-    auto physicsList = new FTFP_BERT;
-    physicsList->SetVerboseLevel(1);
-    runManager->SetUserInitialization(physicsList);
+    runManager->SetUserInitialization(new UltraPhysicsList());
 
     // User action initialization
     runManager->SetUserInitialization(new ActionInitialization());

@@ -1162,6 +1162,7 @@ CMakeFiles/sim.dir/src/DetectorConstruction.cc.o: /home/will04/geant4_work/chere
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4ParticleDefinition.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4ParticleDefinition.icc \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4ParticleMomentum.hh \
+  /home/will04/geant4-v11.3.1-install/include/Geant4/G4PhysicalConstants.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4PhysicsFreeVector.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4PhysicsModelCatalog.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4PhysicsVector.hh \
@@ -1198,8 +1199,6 @@ CMakeFiles/sim.dir/src/DetectorConstruction.cc.o: /home/will04/geant4_work/chere
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4TrackStatus.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4TrackVector.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4Transform3D.hh \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Trd.hh \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Trd.icc \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4Tubs.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4Tubs.icc \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4TwoVector.hh \
@@ -3438,63 +3437,26 @@ CMakeFiles/sim.dir/src/SteppingAction.cc.o: /home/will04/geant4_work/cherenkov_p
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
 CMakeFiles/sim.dir/src/TrackerHit.cc.o: /home/will04/geant4_work/cherenkov_project/src/TrackerHit.cc \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Geometry/Point3D.h \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Geometry/Transform3D.h \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Geometry/Vector3D.h \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
   /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
   /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Utility/defs.h \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/AxisAngle.h \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/AxisAngle.icc \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/LorentzVector.h \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/LorentzVector.icc \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/Rotation.h \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/Rotation.icc \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationX.h \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationX.icc \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationY.h \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationY.icc \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationZ.h \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationZ.icc \
   /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
   /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4Allocator.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4AllocatorPool.hh \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Circle.hh \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Color.hh \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Colour.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4EnvironmentUtils.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4Exception.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4ExceptionSeverity.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4GlobalConfig.hh \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Point3D.hh \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/G4RotationMatrix.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4String.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4String.icc \
+  /home/will04/geant4-v11.3.1-install/include/Geant4/G4SystemOfUnits.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4THitsCollection.hh \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Threading.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4ThreeVector.hh \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Transform3D.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4Types.hh \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/G4UnitsTable.hh \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/G4UnitsTable.icc \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4VHit.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4VHitsCollection.hh \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VMarker.hh \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VMarker.icc \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VVisManager.hh \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VisAttributes.hh \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VisAttributes.icc \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Visible.hh \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Visible.icc \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4ios.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/globals.hh \
-  /home/will04/geant4-v11.3.1-install/include/Geant4/graphics_reps_defs.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/templates.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/tls.hh \
   /home/will04/geant4_work/cherenkov_project/include/TrackerHit.hh \
@@ -3502,16 +3464,11 @@ CMakeFiles/sim.dir/src/TrackerHit.cc.o: /home/will04/geant4_work/cherenkov_proje
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/c++/13/algorithm \
-  /usr/include/c++/13/atomic \
   /usr/include/c++/13/backward/binders.h \
   /usr/include/c++/13/bit \
   /usr/include/c++/13/bits/algorithmfwd.h \
   /usr/include/c++/13/bits/alloc_traits.h \
-  /usr/include/c++/13/bits/allocated_ptr.h \
   /usr/include/c++/13/bits/allocator.h \
-  /usr/include/c++/13/bits/atomic_base.h \
-  /usr/include/c++/13/bits/atomic_futex.h \
-  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
   /usr/include/c++/13/bits/basic_ios.h \
   /usr/include/c++/13/bits/basic_ios.tcc \
   /usr/include/c++/13/bits/basic_string.h \
@@ -3558,14 +3515,10 @@ CMakeFiles/sim.dir/src/TrackerHit.cc.o: /home/will04/geant4_work/cherenkov_proje
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
-  /usr/include/c++/13/bits/shared_ptr.h \
-  /usr/include/c++/13/bits/shared_ptr_base.h \
   /usr/include/c++/13/bits/specfun.h \
   /usr/include/c++/13/bits/sstream.tcc \
   /usr/include/c++/13/bits/std_abs.h \
-  /usr/include/c++/13/bits/std_function.h \
   /usr/include/c++/13/bits/std_mutex.h \
-  /usr/include/c++/13/bits/std_thread.h \
   /usr/include/c++/13/bits/stl_algo.h \
   /usr/include/c++/13/bits/stl_algobase.h \
   /usr/include/c++/13/bits/stl_bvector.h \
@@ -3586,22 +3539,18 @@ CMakeFiles/sim.dir/src/TrackerHit.cc.o: /home/will04/geant4_work/cherenkov_proje
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
-  /usr/include/c++/13/bits/this_thread_sleep.h \
   /usr/include/c++/13/bits/uniform_int_dist.h \
   /usr/include/c++/13/bits/unique_lock.h \
-  /usr/include/c++/13/bits/unique_ptr.h \
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
-  /usr/include/c++/13/chrono \
   /usr/include/c++/13/climits \
   /usr/include/c++/13/clocale \
   /usr/include/c++/13/cmath \
   /usr/include/c++/13/complex \
-  /usr/include/c++/13/condition_variable \
   /usr/include/c++/13/cstddef \
   /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
@@ -3616,11 +3565,9 @@ CMakeFiles/sim.dir/src/TrackerHit.cc.o: /home/will04/geant4_work/cherenkov_proje
   /usr/include/c++/13/ext/aligned_buffer.h \
   /usr/include/c++/13/ext/alloc_traits.h \
   /usr/include/c++/13/ext/atomicity.h \
-  /usr/include/c++/13/ext/concurrence.h \
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
-  /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
   /usr/include/c++/13/iomanip \
   /usr/include/c++/13/ios \
@@ -3643,7 +3590,6 @@ CMakeFiles/sim.dir/src/TrackerHit.cc.o: /home/will04/geant4_work/cherenkov_proje
   /usr/include/c++/13/string \
   /usr/include/c++/13/string_view \
   /usr/include/c++/13/system_error \
-  /usr/include/c++/13/thread \
   /usr/include/c++/13/tr1/bessel_function.tcc \
   /usr/include/c++/13/tr1/beta_function.tcc \
   /usr/include/c++/13/tr1/ell_integral.tcc \
@@ -3851,6 +3797,7 @@ CMakeFiles/sim.dir/src/TrackerSD.cc.o: /home/will04/geant4_work/cherenkov_projec
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4NavigationLevel.icc \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4NavigationLevelRep.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4NavigationLevelRep.icc \
+  /home/will04/geant4-v11.3.1-install/include/Geant4/G4OpticalPhoton.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4OrderedTable.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4PDefManager.hh \
   /home/will04/geant4-v11.3.1-install/include/Geant4/G4ParticleDefinition.hh \
@@ -4208,8 +4155,6 @@ CMakeFiles/sim.dir/src/TrackerSD.cc.o: /home/will04/geant4_work/cherenkov_projec
 
 /home/will04/geant4_work/cherenkov_project/src/TrackerSD.cc:
 
-/home/will04/geant4-v11.3.1-install/include/Geant4/G4Circle.hh:
-
 /home/will04/geant4_work/cherenkov_project/src/SteppingAction.cc:
 
 /home/will04/geant4-v11.3.1-install/include/Geant4/G4UnitsTable.icc:
@@ -4243,6 +4188,8 @@ CMakeFiles/sim.dir/src/TrackerSD.cc.o: /home/will04/geant4_work/cherenkov_projec
 /home/will04/geant4_work/cherenkov_project/include/SteppingAction.hh:
 
 /home/will04/geant4_work/cherenkov_project/include/RunAction.hh:
+
+/home/will04/geant4-v11.3.1-install/include/Geant4/G4PhysicalConstants.hh:
 
 /home/will04/geant4_work/cherenkov_project/include/PrimaryGeneratorAction.hh:
 
@@ -4653,6 +4600,8 @@ CMakeFiles/sim.dir/src/TrackerSD.cc.o: /home/will04/geant4_work/cherenkov_projec
 /home/will04/geant4-v11.3.1-install/include/Geant4/G4ParticleDefinition.icc:
 
 /home/will04/geant4-v11.3.1-install/include/Geant4/PTL/TaskManager.hh:
+
+/home/will04/geant4-v11.3.1-install/include/Geant4/G4OpticalPhoton.hh:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 

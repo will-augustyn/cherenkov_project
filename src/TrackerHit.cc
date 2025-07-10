@@ -1,50 +1,46 @@
 #include "TrackerHit.hh"
+#include "G4SystemOfUnits.hh"
 
-#include "G4Circle.hh"
-#include "G4Colour.hh"
-#include "G4UnitsTable.hh"
-#include "G4VVisManager.hh"
-#include "G4VisAttributes.hh"
+G4ThreadLocal G4Allocator<UltraOpticalHit> *UltraOpticalHitAllocator=0;
 
-#include <iomanip>
 
-namespace Cherenkov
+UltraOpticalHit::UltraOpticalHit()
 {
 
-    G4ThreadLocal G4Allocator<TrackerHit> *TrackerHitAllocator = nullptr;
+  fPhotEne      = 0.0;
+  fPhotPos      = G4ThreeVector();
 
-    //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+}
 
-    G4bool TrackerHit::operator==(const TrackerHit &right) const
-    {
-        return (this == &right) ? true : false;
-    }
+UltraOpticalHit::~UltraOpticalHit()
+{;}
 
-    //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+UltraOpticalHit::UltraOpticalHit(const UltraOpticalHit& right) : G4VHit()
+{
+  fPhotEne     =  right.fPhotEne;
+  fPhotPos     =  right.fPhotPos;
 
-    void TrackerHit::Draw()
-    {
-        G4VVisManager *pVVisManager = G4VVisManager::GetConcreteInstance();
-        if (pVVisManager)
-        {
-            G4Circle circle(fPos);
-            circle.SetScreenSize(4.);
-            circle.SetFillStyle(G4Circle::filled);
-            G4VisAttributes attribs(G4Colour::Red());
-            circle.SetVisAttributes(attribs);
-            pVVisManager->Draw(circle);
-        }
-    }
+}
 
-    //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+const UltraOpticalHit& UltraOpticalHit::operator=(const UltraOpticalHit& right)
+{
+  fPhotEne =  right.fPhotEne;
+  fPhotPos =  right.fPhotPos;
 
-    void TrackerHit::Print()
-    {
-        G4cout << "  trackID: " << fTrackID << " chamberNb: " << fChamberNb << "Edep: " << std::setw(7)
-               << G4BestUnit(fEdep, "Energy") << " Position: " << std::setw(7)
-               << G4BestUnit(fPos, "Length") << G4endl;
-    }
+  return *this;
+}
 
-    //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+G4bool UltraOpticalHit::operator==(const UltraOpticalHit& right) const
+{
+  return (this==&right) ? true : false;
+}
 
-} // namespace B2
+void UltraOpticalHit::Draw()
+{;}
+
+void UltraOpticalHit::Print()
+{
+
+  G4cout << fPhotEne/keV << G4endl;
+  G4cout << fPhotPos/mm      << G4endl;
+}

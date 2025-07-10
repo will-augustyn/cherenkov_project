@@ -24,43 +24,56 @@
 // ********************************************************************
 //
 //
-/// \file B2/B2a/include/TrackerSD.hh
-/// \brief Definition of the B2::TrackerSD class
+// --------------------------------------------------------------
+//                 GEANT 4 - ULTRA experiment example
+// --------------------------------------------------------------
+//
+// Code developed by:
+// B. Tome, M.C. Espirito-Santo, A. Trindade, P. Rodrigues
+//
+//   **********************************************
+//   *        UltraPhysicsList.hh
+//   **********************************************
+//
+//    Ultra Physics List class; Standard and Low Energy EM processes are defined for
+//    the relevant particles. Optical processes are declared.
+//
+#ifndef UltraPhysicsList_H
+#define UltraPhysicsList_H 1
 
-#ifndef CherenkovSensitiveDetector_h
-#define CherenkovSensitiveDetector_h 1
-
-#include "G4VSensitiveDetector.hh"
 #include "globals.hh"
-#include <vector>
+#include "G4VModularPhysicsList.hh"
 
-class G4Material;
-class G4Step;
-class G4HCofThisEvent;
-
-#include "TrackerHit.hh"
-
-namespace Cherenkov
+class UltraPhysicsList : public G4VModularPhysicsList
 {
-    class TrackerSD : public G4VSensitiveDetector
-    {
-    public:
-        TrackerSD(G4String name);
-        ~TrackerSD();
+  public:
+    UltraPhysicsList();
+    ~UltraPhysicsList();
 
-        // methods from base class
-        void Initialize(G4HCofThisEvent*);
-        G4bool ProcessHits(G4Step* astep, G4TouchableHistory* history);
-        void EndOfEvent(G4HCofThisEvent*);
+  protected:
+    // Construct particles and processes
+    void ConstructParticle();
+    void ConstructProcess();
+    void SetCuts();
 
-        void clear();
-        void DrawAll();
-        void PrintAll();
+  private:
 
-    private:
-        UltraOpticalHitsCollection*  OpticalHitsCollection;; 
-    };
+  // hide assignment operator
+  UltraPhysicsList & operator=(const UltraPhysicsList &right);
+  UltraPhysicsList(const UltraPhysicsList&);
 
-} // namespace B2
+  G4VPhysicsConstructor*  fEmPhysicsList;
+  G4VPhysicsConstructor*  fOpPhysicsList;
+  G4VPhysicsConstructor*  fDecayPhysicsList;
+  G4String fEmName;
+
+  G4int fVerboseLebel;
+  G4int fMaxNumPhotonStep;
+
+  G4bool fHelIsRegisted;
+  G4bool fBicIsRegisted;
+  G4bool fGnucIsRegisted;
+  G4bool fStopIsRegisted;
+};
 
 #endif
