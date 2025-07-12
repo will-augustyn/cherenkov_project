@@ -131,7 +131,7 @@ namespace Cherenkov
 
         G4double inner_radius_det = 0 * cm;
         G4double outer_radius_det = 10 * cm;
-        G4double height_det = 10 * cm;
+        G4double height_det = 80 * cm;
 
         auto solidDetector = new G4Tubs("Detector", inner_radius_det, outer_radius_det, height_det, 0, CLHEP::twopi);
 
@@ -139,47 +139,37 @@ namespace Cherenkov
                                             Quartz,        // its material
                                             "Detector");   // its name
 
-        new G4PVPlacement(nullptr,                       // no rotation
-                          G4ThreeVector(0, 0, -80 * cm), // at position
-                          logicDetector,                 // its logical volume
-                          "Detector",                    // its name
-                          logicEnv,                      // its mother  volume
-                          false,                         // no boolean operation
-                          0,                             // copy number
-                          checkOverlaps);                // overlaps checking
+        // new G4PVPlacement(nullptr,                       // no rotation
+        //                   G4ThreeVector(0, 0, -80 * cm), // at position
+        //                   logicDetector,                 // its logical volume
+        //                   "Detector",                    // its name
+        //                   logicEnv,                      // its mother  volume
+        //                   false,                         // no boolean operation
+        //                   0,                             // copy number
+        //                   checkOverlaps);                // overlaps checking
+        
+        G4double placeRadius = outer_radius_h20 - outer_radius_det;
+        G4double circumference = 2 * M_PI * 65;
+        G4int fNbOfChambers = 20;
 
-        G4int fNbOfChambers = 12;
-
-        G4VisAttributes chamberVisAtt(G4Colour::Yellow());
+        G4cout << fNbOfChambers << "num chambers" << G4endl;
 
         fLogicChamber = new G4LogicalVolume *[fNbOfChambers];
 
-        G4int firstPosition = 0 * cm;
+        for (G4int copyNo = 0; copyNo < fNbOfChambers; copyNo++) {
 
-        G4int chamberSpacing = 10 * cm;
-
-        for (G4int copyNo = 0; copyNo < fNbOfChambers; copyNo++)
-        {
-            G4double Zposition = firstPosition + copyNo * chamberSpacing;
+            G4double angle = 2 * M_PI * copyNo / fNbOfChambers;
+            G4double x = placeRadius * std::cos(angle);
+            G4double y = placeRadius * std::sin(angle);
+            G4ThreeVector position(x, y, 0);
 
             auto chamberS = new G4Tubs("Detector", 0, outer_radius_det, height_det, 0. * deg, 360. * deg);
 
             fLogicChamber[copyNo] = new G4LogicalVolume(chamberS, Quartz, "Detector");
 
-            fLogicChamber[copyNo]->SetVisAttributes(chamberVisAtt);
+            new G4PVPlacement(nullptr, position, fLogicChamber[copyNo], "Detector", logicEnv, false, copyNo, checkOverlaps);
 
-            new G4PVPlacement(nullptr,                        // no rotation
-                              G4ThreeVector(0, 0, Zposition), // at (x,y,z)
-                              fLogicChamber[copyNo],          // its logical volume
-                              "Detector",                   // its name
-                              logicEnv,                       // its mother  volume
-                              false,                          // no boolean operations
-                              copyNo,                         // copy number
-                              checkOverlaps);                 // checking overlaps
         }
-        //
-        // always return the physical World
-        //
         return physWorld;
     }
 
